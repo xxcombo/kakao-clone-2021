@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ JH - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header_column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header_column">
+        <h1 class="alt-header_title">종훈</h1>
+      </div>
+      <div class="alt-header_column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat_timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img
+          src="https://scontent-ssn1-1.xx.fbcdn.net/v/t31.0-8/14424763_1186966798041414_6797805339063395127_o.jpg?_nc_cat=110&ccb=2&_nc_sid=ad2b24&_nc_ohc=44Eu0rbu7FkAX8mRAes&_nc_ht=scontent-ssn1-1.xx&oh=7f01ca9f07f78f7456b684bc2ac15fa9&oe=6024FD9A"
+          alt=""
+        />
+        <div class="message-row_content">
+          <span class="message_author">종훈</span>
+          <div class="message_info">
+            <span class="message_bubble"> hi </span>
+            <span class="message_time"> 21:27 </span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row-own">
+        <div class="message-row_content">
+          <div class="message_info">
+            <span class="message_bubble"> 영어쓰네 건방지게 </span>
+            <span class="message_time"> 21:27 </span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply_column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply_column">
+        <input type="text" placeholder="Write a message..." /><i
+          class="far fa-grin-stars"
+        ></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>your screen is too big ㅠㅠ </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
